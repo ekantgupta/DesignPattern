@@ -1,6 +1,11 @@
 package com.ds.singleton;
 
 //Double checking single ton
+/**
+ * This is a Lazy loading singleton class. Also use double checking for multi threading environment.
+ * @author Ekant
+ *
+ */
 public class DatabaseLayer {
 	
 	private static volatile DatabaseLayer db;
